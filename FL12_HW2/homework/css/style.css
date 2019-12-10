@@ -6,26 +6,26 @@
 	color:#fff;
 }
 .tm-banner{
-background-image: linear-gradient(to right, lightskyblue, burlywood );
+    background-image: linear-gradient(to right, lightskyblue, burlywood );
 }
 .tm-banner-inner{
 	background-color:#ffffff;
 }
 .tm-banner-text{
-        text-shadow: 3px 5px 3px #333;
+    text-shadow: 3px 5px 3px #333;
     }
 
 @keyframes action {
-        0%   {left:200px;}
-        100% {left:0px;}
+    0%   {left:200px;}
+    100% {left:0px;}
     }
 .tm-banner-text {
-        animation-name: action;
-        animation-duration: 3s;
-        animation-delay: 1s;
-		animation-iteration-count: 10;
-        animation-timing-function: ease-in-out;
-	    position: relative;
+    animation-name: action;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-in-out;
+	position: relative;
 	}
 .tm-content-box.flex-2-col{
     align-items: center;
@@ -44,7 +44,7 @@ background-image: linear-gradient(to right, lightskyblue, burlywood );
 	color:lightskyblue;
 }
 .padding-medium ol {
-list-style-type:lower-alpha;
+    list-style-type:lower-alpha;
 }
 .padding-medium a:hover::before {
     content:">";
@@ -83,7 +83,7 @@ list-style-type:lower-alpha;
 	font-style:italic;
 }
 .box-work p::first-letter {
-        font-weight: bold;
+    font-weight: bold;
 }
 .tm-section-description {
     text-indent: 25px;
@@ -107,10 +107,10 @@ list-style-type:lower-alpha;
 	text-align:left;
 }
 .submit-btn {
-background-color:white;
-color:lightskyblue;
-border-color:lightskyblue;
-float:right;
+    background-color:white;
+    color:lightskyblue;
+    border-color:lightskyblue;
+    float:right;
 }
 .submit-btn:hover{
 	color:white;
@@ -125,9 +125,9 @@ section
     }
 	
 section::before {
-  content: '';
-  border-top: 44px solid lightskyblue;
-  border-right: 44px solid transparent;
+    content: '';
+    border-top: 44px solid lightskyblue;
+    border-right: 44px solid transparent;
 }
 }
 @media print {
@@ -144,28 +144,29 @@ body,
 .tm-content-box,
 .tm-main-content,
 .padding-medium {
-  margin: 0;
-  padding-bottom: 0;
-  padding-top: 0;
-  text-align: center;
-  max-width: 100%;
-  }
+   margin: 0;
+   padding-bottom: 0;
+   padding-top: 0;
+   text-align: center;
+   max-width: 100%;
+}
+ 
 .heading .padding-medium {
-  margin: 0 auto;
-  padding-top: 0;
-  padding-bottom: 0;
-  text-align: center;
-  max-width: 390px;
-  }
+   margin: 0 auto;
+   padding-top: 0;
+   padding-bottom: 0;
+   text-align: center;
+   max-width: 390px;
+}
 
 .heading .padding-medium ol {
-  list-style: none;
-  padding-left: 0;
-  }
+   list-style: none;
+   padding-left: 0;
+}
 
 .heading .padding-medium li:nth-child(even) {
    text-align: left;
-  }
+}
 
 .heading .padding-medium li:nth-child(odd) {
   text-align: right;
